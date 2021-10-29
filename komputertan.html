@@ -54,14 +54,17 @@
         <div class="join">
 
             <p>
-                Mondjátok meg, hogy mikor legyen:
-                <a href="https://doodle.com/poll/eizyvbas2rd9dnms" target="doodle">Doodle</a>
+                Mikor: <b>2021. október 31., 21:00 CET</b> (20:00 GMT) - óra átállításra figyelj!
+                <!-- 
+                    <a href="https://doodle.com/poll/eizyvbas2rd9dnms" target="doodle">Doodle</a>
+                -->
             </p>
 
             <p>
-                <h3>A témák, amiket már feldobtatok:</h3>
+                <h3>A témák, amiket feldobtatok:</h3>
                 <ul style="list-style-type: none;">
 
+                    <li>- make</li>
                     <li>- Arduino: nem játék</li>
                     <li>- GIT: hogyan működik valójában</li>
                     <li>- EDFSM: Event-Driven Finite State Machine (embedded fókusz)</li>
@@ -72,7 +75,6 @@
                     <li>- gpu programozás alapok</li>
                     <li>- a többszálú programozás kihívásai</li>
                     <li>- jó programozási nyelv-e az Objective-C vagy a Swift vagy a C# vagy a C++ esetleg a Java</li>
-                    <li>- make</li>
 
                     <i style="color: #aaaaaa;">A műsorváltoztatás jogát fenntartjuk</i>
                 </ul>
@@ -119,7 +121,7 @@
 
             <p>
                 Ingyen van. 
-                Lehet csak csendben fülelni is,
+                Csendben fülelni is teljesen valid,
                 de ha valamit 
                 hozzá tudsz szólni, 
                 akkor ne tartsd vissza.
@@ -134,7 +136,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>
-                        Updated: 2021.10.27
+                        Updated: 2021.10.29
                         - 
                         Bootstrap theme by 
                         <a target="thirdparty" href="https://github.com/BlackrockDigital/startbootstrap-heroic-features">
@@ -153,30 +155,6 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- music -->
-    <script>
-        var player = new music("MK");
-        var playing = false;
-        player.stereo(true);
-
-        $("#play").click(function() {
-            if (playing) return;
-            player.LoadAndRun("http://linkbroker.hu/site/mod.worksong");  
-            playing = true;          
-        });
-
-        $("#stop").click(function() {            
-            player.loader.player.stop();
-            playing = false;
-        });
-
-    setTimeout(function() {
-        $(".ego").html("ego");
-    },45000)
-
-    </script>
-
 
 </body>
 
